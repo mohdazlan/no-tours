@@ -23,11 +23,11 @@ mongoose
     useUnifiedTopology: true,
   })
   .then((con) => {
-    console.log(con.connections);
-    console.log('DB Connection successfull');
+    // console.log(con.connections);
+    //  console.log('DB Connection successfull');
   });
 
-console.log(process.env);
+// console.log(process.env);
 // basic port configuration
 
 const port = process.env.PORT || 4000;
