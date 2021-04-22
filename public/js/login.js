@@ -1,6 +1,7 @@
 /* eslint-disable */
 import axios from 'axios';
 import { showAlert } from './alerts';
+import { updateSettings } from './updateSettings';
 export const login = async (email, password) => {
   console.log(email, password);
   try {
